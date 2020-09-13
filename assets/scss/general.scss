@@ -1,0 +1,42 @@
+/* general */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* clearfix */
+.group:before,
+.group:after {
+  content: " ";
+  display: table;
+}
+
+.group:after {
+  clear: both;
+}
+
+/* element border */
+/** { outline: 3px solid black; } */
+
+body {
+  padding: 1em;
+}
+
+li {
+  display: block;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

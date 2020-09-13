@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "scss": "^0.2.4",
+    "vue": "^2.6.12",
+    "vue-hot-reload-api": "^2.3.4"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.0",
+    "sass": "^1.26.10",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
